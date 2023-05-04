@@ -1,7 +1,7 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
 
 # Create your views here.
 
 
-def get_studio_base(request):
-    return render(request, 'studio/studio_base.html')
+class Index(TemplateView):
+    template_name = 'index.html'
