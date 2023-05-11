@@ -1,6 +1,6 @@
 from django.views.generic import TemplateView
 from django.views.generic.edit import CreateView
-from . forms import OfferForm
+from .forms import OfferForm
 
 
 # Create your views here.
