@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+
+<div class="container py-5">
+    <div class="row">
+        <div class="mt-9 py-4 text-center">
+            <h2>Thank you for your booking</h2>
+            <h4>Further questions?</h4>
+            <h5>Contacts at the bottom of the page</h5>
+        </div>
+    </div>
+    <div class="row">
+        <a class="btn btn-primary" href="{% url 'index' %}" role="button">Back to Homepage</a>
+    </div>
+</div>
+
+
+{% endblock %}

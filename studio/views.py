@@ -14,6 +14,10 @@ class Book(TemplateView):
     template_name = 'book.html'
 
 
+class Confirmation(TemplateView):
+    template_name = 'confirmation.html'
+
+
 
 class OfferForm(CreateView):
     form_class = OfferForm
