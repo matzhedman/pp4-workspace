@@ -10,6 +10,11 @@ class Index(TemplateView):
     template_name = 'index.html'
 
 
+class Book(TemplateView):
+    template_name = 'book.html'
+
+
+
 class OfferForm(CreateView):
     form_class = OfferForm
     template_name = 'date.html'
