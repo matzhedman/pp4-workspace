@@ -18,7 +18,6 @@ class Confirmation(TemplateView):
     template_name = 'confirmation.html'
 
 
-
 class OfferForm(CreateView):
     form_class = OfferForm
     template_name = 'date.html'
