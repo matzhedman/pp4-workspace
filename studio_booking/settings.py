@@ -29,14 +29,12 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEVELOPMENT = os.environ.get("DEVELOPMENT")
-DEBUG = DEVELOPMENT
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-matzhedman-pp4-workspace-9bwel534j0.us2.codeanyapp.com',
                  'pp4-studio-recording.herokuapp.com', 'localhost']
 
-
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',

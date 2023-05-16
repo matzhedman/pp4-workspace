@@ -179,6 +179,7 @@ A Superuser is also created for full access.
 ## Testing
 
 ### Functional Testing
+![test](/static/assets/img/test.png)
 
 ### Pep8 Validation
 
