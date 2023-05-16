@@ -12,10 +12,13 @@
       - [First page](#first-page)
         - [OPTION 1: Register](#option-1-register)
         - [OPTION 2: Login](#option-2-login)
+        - [Admin](#admin)
     - [Second page](#second-page)
     - [Third page](#third-page)
     - [Fourth page](#fourth-page)
     - [Logout](#logout)
+    - [Password reset](#password-reset)
+    - [Remember me](#remember-me)
   - [Structure](#structure)
     - [Logical Flow](#logical-flow)
     - [Features Left to Implement](#features-left-to-implement)
@@ -85,6 +88,17 @@ A Superuser is also created for full authority.
 
 ##### OPTION 2: Login
 
+- If the user already registered and has a username and password, press "Login"
+- It will direct the user to a Sign in-view.
+
+![login1](/static/assets/img/13.png)
+
+- Username and Password are mandatory. If not entered signing in wont be possible and it will give a message about entering both fields.
+
+![login2](/static/assets/img/14.png)
+
+##### Admin
+
 ### Second page
 
 - After the user have either registered a new user, or logged in by an already existing user, it loads the second page.
@@ -123,6 +137,18 @@ A Superuser is also created for full authority.
 
 - After confirmation to logout, the user will be redirected to first page.
 
+### Password reset
+
+- If a user has forgotten his/hers password, the user can press the button of "Forgot password?" and will then be asked to enter a email address to be able to reset.
+
+![passwReset](/static/assets/img/16.png)
+
+### Remember me
+
+- If a user doesn't wants to enter username or password more than once, there is a "Remember me"-checkbox.
+
+![rememberMe](/static/assets/img/17.png)
+
 ## Structure
 
 ### Logical Flow
@@ -142,6 +168,14 @@ A Superuser is also created for full authority.
 ### Database design
 
 ## Technologies
+
+- Python - Python was the main language to build this app.
+- Bootstrap 5 was used for styling.
+- Django was used as the framework for the entire project.
+- Allauth was used to create the login-authorization
+- Datepicker and Crispy forms was used to create the calender.
+- GitHub - source code is hosted on GitHub.
+- CodeAnywhere was used to develop this project.
 
 ## Testing
 
