@@ -9,8 +9,11 @@
     - [Target Audience](#target-audience)
     - [User Stories](#user-stories)
     - [Existing Features](#existing-features)
-      - [?](#)
-        - [?](#-1)
+      - [First page](#first-page)
+        - [OPTION 1: Register](#option-1-register)
+        - [OPTION 2: Login](#option-2-login)
+    - [Second page](#second-page)
+    - [Third page](#third-page)
   - [Structure](#structure)
     - [Logical Flow](#logical-flow)
     - [Features Left to Implement](#features-left-to-implement)
@@ -28,71 +31,95 @@
 
 ## Introduction
 
-?
+This is a booking system for a Recording Studio.
 
 ### Site Goals
 
-* ?
-* ?
+- The purpose of the booking system is to simplify the actual booking.
+- As a user be able to manage his/hers booking
+- To make it easy for musicians to record both small ideas up to an entire album.
 
 ### Target Audience
 
-* ?
+- The audience of this booking system are musicians, both beginners and professionals.
 
 ### User Stories
 
-* As a user, I would like to 
-* As a user, I would like to 
-* As a user, I want to 
+- As a user, I would like to choose a day to book using a calender
+- As a user, I would like to choose to have a technician to guide and help me
+- As a user, I want to
 
 ### Existing Features
 
-#### ?
+#### First page
 
-* 
+- First when the site loads the user can register a new user or login if user already exists.
+  ![firstpage](/static/assets/img/1.png)
 
+##### OPTION 1: Register
 
-* 
+- Pressing the Register button will take the user to a Sign up-page.
+  ![register](/static/assets/img/2.png)
 
-##### ?
+- Username and Password has to be filled.
+  ![registerPassw](/static/assets/img/3.png)
 
+- Both fields for password has to be filled, otherwise it prompts the user to fill it and the user cannot sign up without typing it twise.
+  ![registerPassw2](/static/assets/img/4.png)
 
+- If the user enters different passwords, it shows a text that says "You must type the same password each time."
+  ![registerPassw3](/static/assets/img/5.png)
+
+##### OPTION 2: Login
+
+### Second page
+
+- After the user have either registered a new user, or logged in by an already existing user, it loads the second page.
+- It gives you a welcome message and a button that says "Book".
+- The navbar switches from "Login" to "Logout" when a valid user is logged in.
+- Pressing the button takes the user to the third page.
+  ![secondpage](/static/assets/img/6.png)
+
+### Third page
+
+- At the third page a calender will appear.
+  ![thirdpage1](/static/assets/img/7.png)
+
+- If the small square to the right that looks like a calender is pressed a bigger window appears with the option to choose a date.
+  ![thirdpage2](/static/assets/img/8.png)
+
+- After a dates has been chosen, it will appear in the field.
+  ![thirdpage3](/static/assets/img/9.png)
 
 ## Structure
 
 ### Logical Flow
 
-* I have created a flowchart of the structure for this program. Following flow is how the program works right now. See section of [Features left to Implement](#features-left-to-implement) for the expected final version.
+- I have created a flowchart of the structure for this program. Following flow is how the program works right now. See section of [Features left to Implement](#features-left-to-implement) for the expected final version.
 
 ![flowchart_current]()
 
 ### Features Left to Implement
 
-* This is a flowchart of the expected final version.
+- This is a flowchart of the expected final version.
 
 ![flowchart_expected]()
 
-* Features to implement:
+- Features to implement:
 
 ### Database design
 
-
 ## Technologies
-
 
 ## Testing
 
 ### Functional Testing
 
-
-
 ### Pep8 Validation
 
-* Python syntax checker at [Extends class](https://extendsclass.com/python-tester.html) was used to check the code. No error was found.
+- Python syntax checker at [Extends class](https://extendsclass.com/python-tester.html) was used to check the code. No error was found.
 
 ### Bugs and Fixes
-
-
 
 ## Deployment
 
@@ -102,18 +129,16 @@ The site was created using the CodeAnywhere editor and pushed to github to the r
 
 The following git commands were used throughout development to push code to the remote repo:
 
-```git add .``` - This command was used to add the file(s) to the staging area before they are committed.
-```git commit -m "commit message"``` - This command was used to commit changes to the local repository queue ready for the final step.
-```git push``` - This command was used to push all committed code to the remote repository on github.
+`git add .` - This command was used to add the file(s) to the staging area before they are committed.
+`git commit -m "commit message"` - This command was used to commit changes to the local repository queue ready for the final step.
+`git push` - This command was used to push all committed code to the remote repository on github.
 
 ### Heroku Deployment
 
 The below steps were followed to deploy this project to Heroku:
 
-
-
 ## Credits
 
 ### Code
 
-* I used Code Institutes walkthrough project as tutorial for setting everything up and get the connection to my Worksheet, and also for steps to deploy my program to Heroku.
+- I used Code Institutes walkthrough project as tutorial for setting everything up and get the connection to my Worksheet, and also for steps to deploy my program to Heroku.

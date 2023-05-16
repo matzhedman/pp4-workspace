@@ -2,13 +2,11 @@
 {% load crispy_forms_tags %}
 {% block content %}
 
-<div class="has-bg-img">
-    <img class="bg-img" src="../img/recording-studio-1869560_1920.jpg" alt="Recording studio with microphone">
-</div>
+
 <div class="container py-5">
     <div class="row">
         <div class="mt-9 py-4 text-center">
-            <div class="nav-item"><a class="nav-divnk active" href="{% url 'index' %}">Home</a></div>
+
             {% if user.is_authenticated %}
             <div class="nav-item">
                 <a class="nav-divnk" href="{% url 'account_logout' %}">Logout</a>
