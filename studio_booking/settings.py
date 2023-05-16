@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEVELOPMENT = os.environ.get("DEVELOPMENT")
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-matzhedman-pp4-workspace-9bwel534j0.us2.codeanyapp.com',
                  'pp4-studio-recording.herokuapp.com', 'localhost']
@@ -111,7 +111,7 @@ WSGI_APPLICATION = 'studio_booking.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://qsdgytmr:kWzCZKTZyPqDqKl7-EedFHw5aQO13tCX@balarama.db.elephantsql.com/qsdgytmr')
+    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
 # Password validation
