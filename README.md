@@ -26,13 +26,14 @@
   - [Technologies](#technologies)
   - [Testing](#testing)
     - [Functional Testing](#functional-testing)
-    - [Pep8 Validation](#pep8-validation)
+    - [Agile Methods](#agile-methods)
     - [Bugs and Fixes](#bugs-and-fixes)
   - [Deployment](#deployment)
     - [Version Control](#version-control)
     - [Heroku Deployment](#heroku-deployment)
   - [Credits](#credits)
     - [Code](#code)
+      - [Notes](#notes)
 
 ## Introduction
 
@@ -181,11 +182,15 @@ A Superuser is also created for full access.
 ### Functional Testing
 ![test](/static/assets/img/test.png)
 
-### Pep8 Validation
+### Agile Methods
+- I have used Agile methods to use as a guide through the project.
 
-- Python syntax checker at [Extends class](https://extendsclass.com/python-tester.html) was used to check the code. No error was found.
+![agile](/static/assets/img/agile.png)
+
 
 ### Bugs and Fixes
+- CSS is not loading properly
+- For further info about bugs, check the Functional Testing.
 
 ## Deployment
 
@@ -199,12 +204,18 @@ The following git commands were used throughout development to push code to the 
 `git commit -m "commit message"` - This command was used to commit changes to the local repository queue ready for the final step.
 `git push` - This command was used to push all committed code to the remote repository on github.
 
+
 ### Heroku Deployment
 
-The below steps were followed to deploy this project to Heroku:
-
 ## Credits
+* Credits to Tutor Support at Code Institute for guiding and assisting me when errors occurs, and helping me find a way forward.
+  
 
 ### Code
+* I used Code Institutes walkthrough project as tutorial for setting everything up and get the connection to my Worksheet, and also for steps to deploy my program to Heroku.
+* For Allauth I used the lesson by Matt in "I Think therefore I blog"
+* For the datepicker I used this tutorial at webpedia: https://webpedia.net/how-to-use-datepicker-in-django
 
-- I used Code Institutes walkthrough project as tutorial for setting everything up and get the connection to my Worksheet, and also for steps to deploy my program to Heroku.
+
+#### Notes
+- Secret data has been deployed to Github due to a mistake by me writing the URL in settings. For the deployed version this has been corrected, but still some commits has the sensitive information though.
