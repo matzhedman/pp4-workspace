@@ -38,7 +38,7 @@
 
 This is a booking system for a Recording Studio.
 It contains of four (4) pages, a register/login option and a calender.
-A Superuser is also created for full authority.
+A Superuser is also created for full access.
 
 ### Site Goals
 
@@ -54,7 +54,6 @@ A Superuser is also created for full authority.
 
 - As a user, I would like to choose a day to book using a calender
 - As a user, I would like to choose to have a technician to guide and help me
-- As a user, I want to
 
 ### Existing Features
 
